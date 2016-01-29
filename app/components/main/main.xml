@@ -1,4 +1,4 @@
-<Page xmlns="http://www.nativescript.org/tns.xsd"
+<Page xmlns="http://schemas.nativescript.org/tns.xsd"
       xmlns:c="components/list-picker"
       xmlns:tsd="controls/sidedrawer"
       navigatingTo="navigatingTo" >
