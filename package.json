@@ -31,14 +31,14 @@
   "nativescript": {
     "id": "org.nativescript.sampleTasks",
     "tns-ios": {
-      "version": "1.5.2"
+      "version": "1.6.0"
     },
     "tns-android": {
-      "version": "1.5.1"
+      "version": "1.6.3"
     }
   },
   "dependencies": {
     "sample-tasks-app-options": "file:app_options",
-    "tns-core-modules": "1.5.2"
+    "tns-core-modules": "1.6.2"
   }
 }
