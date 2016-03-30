@@ -1,3 +1,4 @@
+"use strict";
 var viewModelBaseModule = require("../common/view-model-base");
 var viewTaskViewModelModule = require("../view-task/view-task-view-model");
 var editTaskViewModelModule = require("../edit-task/edit-task-view-model");
@@ -72,7 +73,7 @@ var TasksViewModel = (function (_super) {
         });
     };
     return TasksViewModel;
-})(viewModelBaseModule.ViewModelBase);
+}(viewModelBaseModule.ViewModelBase));
 exports.TasksViewModel = TasksViewModel;
 function getMethodByFilter(selectedDay) {
     switch (selectedDay) {

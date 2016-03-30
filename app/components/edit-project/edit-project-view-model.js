@@ -1,3 +1,4 @@
+"use strict";
 var editViewModelBaseModule = require("../common/edit-view-model-base");
 var notificationsModule = require("../../utils/notifications");
 var navigationModule = require("../../utils/navigation");
@@ -43,6 +44,6 @@ var EditProjectViewModel = (function (_super) {
         navigationModule.goBack();
     };
     return EditProjectViewModel;
-})(editViewModelBaseModule.EditViewModelBase);
+}(editViewModelBaseModule.EditViewModelBase));
 exports.EditProjectViewModel = EditProjectViewModel;
 //# sourceMappingURL=edit-project-view-model.js.map

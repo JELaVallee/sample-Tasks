@@ -1,3 +1,4 @@
+"use strict";
 var viewModel;
 function navigatingTo(args) {
     var page = args.object;

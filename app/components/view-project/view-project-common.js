@@ -1,3 +1,4 @@
+"use strict";
 function itemTap(args) {
     var viewProjectViewModel = args.object.bindingContext;
     viewProjectViewModel.viewTask(args);

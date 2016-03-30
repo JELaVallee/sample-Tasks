@@ -1,3 +1,4 @@
+"use strict";
 var applicationSettingsModule = require("application-settings");
 var constantsModule = require("./constants");
 var notificationsModule = require("./notifications");
@@ -273,7 +274,7 @@ var Service = (function () {
         });
     };
     return Service;
-})();
+}());
 exports.Service = Service;
 exports.service = new Service();
 //# sourceMappingURL=service.js.map

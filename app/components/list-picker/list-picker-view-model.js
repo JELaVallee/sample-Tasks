@@ -1,3 +1,4 @@
+"use strict";
 var observableModule = require("data/observable");
 var viewModelBaseModule = require("../common/view-model-base");
 var navigationModule = require("../../utils/navigation");
@@ -52,7 +53,7 @@ var ListPickerViewModel = (function (_super) {
         navigationModule.goBack();
     };
     return ListPickerViewModel;
-})(viewModelBaseModule.ViewModelBase);
+}(viewModelBaseModule.ViewModelBase));
 exports.ListPickerViewModel = ListPickerViewModel;
 var ListItem = (function (_super) {
     __extends(ListItem, _super);
@@ -88,6 +89,6 @@ var ListItem = (function (_super) {
         configurable: true
     });
     return ListItem;
-})(observableModule.Observable);
+}(observableModule.Observable));
 exports.ListItem = ListItem;
 //# sourceMappingURL=list-picker-view-model.js.map

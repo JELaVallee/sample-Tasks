@@ -1,3 +1,4 @@
+"use strict";
 var viewModelBaseModule = require("../common/view-model-base");
 var serviceModule = require("../../utils/service");
 var EditProfileViewModel = (function (_super) {
@@ -105,6 +106,6 @@ var EditProfileViewModel = (function (_super) {
         return true;
     };
     return EditProfileViewModel;
-})(viewModelBaseModule.ViewModelBase);
+}(viewModelBaseModule.ViewModelBase));
 exports.EditProfileViewModel = EditProfileViewModel;
 //# sourceMappingURL=edit-profile-view-model.js.map

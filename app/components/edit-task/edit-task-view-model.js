@@ -1,3 +1,4 @@
+"use strict";
 var cameraModule = require("camera");
 var imageSourceModule = require("image-source");
 var editViewModelBaseModule = require("../common/edit-view-model-base");
@@ -127,6 +128,6 @@ var EditTaskViewModel = (function (_super) {
         }
     };
     return EditTaskViewModel;
-})(editViewModelBaseModule.EditViewModelBase);
+}(editViewModelBaseModule.EditViewModelBase));
 exports.EditTaskViewModel = EditTaskViewModel;
 //# sourceMappingURL=edit-task-view-model.js.map

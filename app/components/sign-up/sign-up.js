@@ -1,3 +1,4 @@
+"use strict";
 var signUpViewModelModule = require("./sign-up-view-model");
 var viewModel;
 function navigatingTo(args) {

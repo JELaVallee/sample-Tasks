@@ -1,3 +1,4 @@
+"use strict";
 var listPickerViewModelModule = require("../list-picker/list-picker-view-model");
 var navigationModule = require("../../utils/navigation");
 var viewsModule = require("../../utils/views");

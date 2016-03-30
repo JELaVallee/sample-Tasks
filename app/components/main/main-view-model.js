@@ -1,3 +1,4 @@
+"use strict";
 var viewModelBaseModule = require("../common/view-model-base");
 var editProfileViewModelModule = require("../edit-profile/edit-profile-view-model");
 var listPickerViewModelModule = require("../list-picker/list-picker-view-model");
@@ -72,6 +73,6 @@ var MainViewModel = (function (_super) {
         });
     };
     return MainViewModel;
-})(viewModelBaseModule.ViewModelBase);
+}(viewModelBaseModule.ViewModelBase));
 exports.MainViewModel = MainViewModel;
 //# sourceMappingURL=main-view-model.js.map

@@ -1,3 +1,4 @@
+"use strict";
 var viewModelBaseModule = require("../common/view-model-base");
 var viewTaskViewModelModule = require("../view-task/view-task-view-model");
 var editTaskViewModelModule = require("../edit-task/edit-task-view-model");
@@ -85,6 +86,6 @@ var ViewProjectViewModel = (function (_super) {
         });
     };
     return ViewProjectViewModel;
-})(viewModelBaseModule.ViewModelBase);
+}(viewModelBaseModule.ViewModelBase));
 exports.ViewProjectViewModel = ViewProjectViewModel;
 //# sourceMappingURL=view-project-view-model.js.map

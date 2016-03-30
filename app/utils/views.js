@@ -1,3 +1,4 @@
+"use strict";
 var Views;
 (function (Views) {
     Views.main = "components/main/main";

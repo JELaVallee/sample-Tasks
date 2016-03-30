@@ -1,3 +1,4 @@
+"use strict";
 var observableModule = require("data/observable");
 var resourcesModule = require("../../resources");
 var Page1ViewModel = (function (_super) {
@@ -27,6 +28,6 @@ var Page1ViewModel = (function (_super) {
         configurable: true
     });
     return Page1ViewModel;
-})(observableModule.Observable);
+}(observableModule.Observable));
 exports.Page1ViewModel = Page1ViewModel;
 //# sourceMappingURL=page1-view-model.js.map

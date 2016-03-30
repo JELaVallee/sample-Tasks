@@ -1,3 +1,4 @@
+"use strict";
 exports.strings = {
     logout: "LOGOUT",
     login: "LOGIN",
