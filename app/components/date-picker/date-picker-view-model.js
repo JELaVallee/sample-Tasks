@@ -1,3 +1,4 @@
+"use strict";
 var viewModelBaseModule = require("../common/view-model-base");
 var navigationModule = require("../../utils/navigation");
 var DatePickerViewModel = (function (_super) {
@@ -53,6 +54,6 @@ var DatePickerViewModel = (function (_super) {
         navigationModule.goBack();
     };
     return DatePickerViewModel;
-})(viewModelBaseModule.ViewModelBase);
+}(viewModelBaseModule.ViewModelBase));
 exports.DatePickerViewModel = DatePickerViewModel;
 //# sourceMappingURL=date-picker-view-model.js.map

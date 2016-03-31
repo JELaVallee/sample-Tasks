@@ -1,3 +1,4 @@
+"use strict";
 var datePickerViewModelModule = require("../date-picker/date-picker-view-model");
 var timePickerViewModelModule = require("../time-picker/time-picker-view-model");
 var navigationModule = require("../../utils/navigation");

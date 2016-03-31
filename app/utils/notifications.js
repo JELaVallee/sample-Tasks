@@ -1,3 +1,4 @@
+"use strict";
 var dialogsModule = require("ui/dialogs");
 function showError(error) {
     dialogsModule.alert({ title: "Error", message: error, okButtonText: "Close" });

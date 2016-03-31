@@ -1,3 +1,4 @@
+"use strict";
 var platformModule = require("platform");
 var observableModule = require("data/observable");
 var enumsModule = require("ui/enums");
@@ -76,6 +77,6 @@ var ViewModelBase = (function (_super) {
         dialogsModule.alert({ title: "Info", message: message, okButtonText: "OK" });
     };
     return ViewModelBase;
-})(observableModule.Observable);
+}(observableModule.Observable));
 exports.ViewModelBase = ViewModelBase;
 //# sourceMappingURL=view-model-base.js.map

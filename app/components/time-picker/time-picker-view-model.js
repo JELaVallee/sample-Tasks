@@ -1,3 +1,4 @@
+"use strict";
 var viewModelBaseModule = require("../common/view-model-base");
 var navigationModule = require("../../utils/navigation");
 var TimePickerViewModel = (function (_super) {
@@ -39,6 +40,6 @@ var TimePickerViewModel = (function (_super) {
         navigationModule.goBack();
     };
     return TimePickerViewModel;
-})(viewModelBaseModule.ViewModelBase);
+}(viewModelBaseModule.ViewModelBase));
 exports.TimePickerViewModel = TimePickerViewModel;
 //# sourceMappingURL=time-picker-view-model.js.map

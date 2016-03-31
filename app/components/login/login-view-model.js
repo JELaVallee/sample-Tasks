@@ -1,3 +1,4 @@
+"use strict";
 var viewModelBaseModule = require("../common/view-model-base");
 var serviceModule = require("../../utils/service");
 var navigationModule = require("../../utils/navigation");
@@ -75,6 +76,6 @@ var LoginViewModel = (function (_super) {
         return true;
     };
     return LoginViewModel;
-})(viewModelBaseModule.ViewModelBase);
+}(viewModelBaseModule.ViewModelBase));
 exports.LoginViewModel = LoginViewModel;
 //# sourceMappingURL=login-view-model.js.map

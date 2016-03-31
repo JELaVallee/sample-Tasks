@@ -1,3 +1,4 @@
+"use strict";
 var platformModule = require("platform");
 var frameModule = require("ui/frame");
 var enumsModule = require("ui/enums");

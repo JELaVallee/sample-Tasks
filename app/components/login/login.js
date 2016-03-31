@@ -1,3 +1,4 @@
+"use strict";
 var loginViewModelModule = require("./login-view-model");
 var viewModel;
 function navigatingTo(args) {

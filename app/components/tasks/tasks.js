@@ -1,3 +1,4 @@
+"use strict";
 var tasksViewModelModule = require("./tasks-view-model");
 var viewModel = new tasksViewModelModule.TasksViewModel();
 function navigatingTo(args) {

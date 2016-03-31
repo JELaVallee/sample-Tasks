@@ -1,3 +1,4 @@
+"use strict";
 var projectsViewModelModule = require("./projects-view-model");
 var viewModel = new projectsViewModelModule.ProjectsViewModel();
 function navigatingTo(args) {

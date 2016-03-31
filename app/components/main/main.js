@@ -1,3 +1,4 @@
+"use strict";
 var mainViewModelModule = require("./main-view-model");
 var navigationModule = require("../../utils/navigation");
 var viewModel = new mainViewModelModule.MainViewModel();

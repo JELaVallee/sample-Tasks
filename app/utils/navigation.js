@@ -1,3 +1,4 @@
+"use strict";
 var frameModule = require("ui/frame");
 function navigate(navigationEntry) {
     var topmost = frameModule.topmost();

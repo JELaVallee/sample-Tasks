@@ -1,3 +1,4 @@
+"use strict";
 var enumsModule = require("ui/enums");
 var viewModelBaseModule = require("./view-model-base");
 var navigationModule = require("../../utils/navigation");
@@ -164,6 +165,6 @@ var EditViewModelBase = (function (_super) {
         });
     };
     return EditViewModelBase;
-})(viewModelBaseModule.ViewModelBase);
+}(viewModelBaseModule.ViewModelBase));
 exports.EditViewModelBase = EditViewModelBase;
 //# sourceMappingURL=edit-view-model-base.js.map
