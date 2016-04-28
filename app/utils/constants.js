@@ -1,5 +1,5 @@
 "use strict";
-exports.telerikApiKey = "Rw5X5HlnO1s9E0kf";
+exports.telerikApiKey = "ycuympv8gx9cimup";
 exports.authenticationTokenKey = "authentication_token";
 exports.deleteProjectMessage = "Do you want to delete the project? This will delete all its tasks.";
 exports.deleteProjectHeader = "Delete project";
